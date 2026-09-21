@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#1565c0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minha agenda</title>
+</head>
+
+<body>
+    <header>
+        <h1>Agenda Escolar</h1>
+        <p>Minha PWA</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Nova Tarefa</h2>
+            <form id="form-tarefa">
+                <label for="tarefa">Tarefa</label>
+                <input type="text" placeholder="Digite Uma Tarefa:" id="tarefa" required>
+                    <button type="submit">Adicionar</button>
+            </form>
+        </section>
+        <section>
+            <h2>Minhas tarefas</h2>
+            <ul id="listaTarefa"></ul>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
